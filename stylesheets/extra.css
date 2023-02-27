@@ -3,4 +3,13 @@
     --md-primary-bg-color:        #c8ecd1;
     --md-primary-fg-color--light: #c8ecd1;
     --md-primary-fg-color--dark:  #272727;
-  }
+}
+
+.md-typeset hr {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.md-grid {
+  max-width: 1000px; 
+}
