@@ -1,3 +1,41 @@
-site_name: My Docs
+site_name: Turtle2D
 theme:
   name: material
+  logo: assets/turtturt.png
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - toc.integrate 
+    - content.tooltips
+  font:
+    text: Archivo
+    code: JetBrains Mono
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - abbr
+  - pymdownx.snippets
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+    - Prologue: 'index.md'
+    - Welcome to Turtle2D: 
+      - 'Why Turtle2D?': 'welcome/why.md'
+      - 'Engine': 'engine/index.md'
+      - 'Editor': 'editor/index.md'
+    - Game Elements: 
+      - 'Why Custom Elements?': 'custom-elements/index.md'
+      - '&lt;map&gt;': 'custom-elements/map.md'
+      - '&lt;lt-sprite&gt;': 'custom-elements/lt-sprite.md'
+      - '&lt;lt-tile&gt;': 'custom-elements/lt-tile.md'
+      - '&lt;lt-area&gt;': 'custom-elements/lt-area.md'
+    - About:
+        - 'License': 'license.md'
+        - 'Release Notes': 'release-notes.md'

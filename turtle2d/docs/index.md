@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+# Prologue
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+!!! danger "wait how did you get here"
 
-## Commands
+    ![Image title](assets/turthuh.png){ width=50, align=left }
+    Turtle2D is very much a work in progress, and is ***NOT ready for use in any form or fashion***. You shouldn't even be here, honestly. This documentation is primarily so I can keep track of my own nonsense. This place is not a place of honor. No highly esteemed deed is commemorated here. Nothing valued is here.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+---
 
-## Project layout
+# Introduction
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+hey

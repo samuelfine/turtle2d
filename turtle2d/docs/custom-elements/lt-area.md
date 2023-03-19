@@ -1,0 +1,3 @@
+# &lt;lt-area&gt;
+
+The `<lt-area>` element, or Area, is custom element used to detect collisions in a non-disruptive way, then trigger events of code when ovelapped. For example, Area elements can be used to trigger Map transitions, detect when a player enters a particular section of a Map, or can be used for rough distance calculation by determining if one object is within a specific distance from another.
